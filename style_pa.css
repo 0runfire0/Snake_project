@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+button{
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    padding: 12px 20px;
+}
+
+button[name="exitBtn"]{
+    position: absolute;
+    top:10px;
+    right:2%;
+}
+
+#mode-buttons{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    position:absolute;
+    top: 2px;
+}
+
+h2{
+    position:absolute;
+    top: 30px;
+}
